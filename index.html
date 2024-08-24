@@ -27,7 +27,7 @@
                 accent: '#494949',
                 secondary: '#737373',
                 blanch: '#ffffff',
-                 
+                footerNav: '#E9E9E9',
               },
               fontFamily: {
                 Manrope: 'Manrope',
@@ -321,7 +321,7 @@
  
 
    <!-- let's discuss next projects section start  -->
-   <section class="m-1 lg:m-2 bg-discussBg bg-cover px-4 lg:px-36">
+   <section class="m-1 bg-discussBg bg-cover px-4 lg:px-36">
         <div class="text-center lg:pt-24 pt-5 pb-5 lg:pb-10" >
               <button class="flex gap-2 bg-primary bg-opacity-30  px-4 py-2  rounded-full font-bold text-accent mx-auto mb-5">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -354,7 +354,40 @@
    <!-- let's discuss next projects section end  -->
 
 </main>
+
+
    <footer>
+
+    <footer class="footer footer-center bg-black text-blanch rounded px-4 lg:px-44 lg:py-20 py-10">
+       
+        <nav>
+          <div class="grid grid-flow-col gap-4">
+            <a href="" class="space-x-3 flex" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 bg-primary p-2 rounded-full font-semibold text-black -rotate-45">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+              </svg><span class="text-2xl font-extrabold">Rinterio</span></a>
+             
+          </div>
+        </nav>
+        <aside>
+            <p class="text-accent">The barn house captivates with its blend of rustic charm and modern sophistication,
+                <br class="hidden lg:block"> featuring weathered wood, sleek metal accents.</p>
+          </aside>
+          <div class="navbar-center  text-xl">
+            <ul class="menu menu-horizontal  items-center flex flex-col lg:flex-row gap-4 lg:gap-16">
+              <li><a class="font-bold text-footerNav">Home</a></li>
+              <li class="text-footerNav"><a>Services</a></li>
+              <li class="text-footerNav"><a>Portfolio</a></li>
+              <li class="text-footerNav"><a>Blogs</a></li>
+              <li class="text-footerNav"><a>Contact Us</a></li>
+            </ul>
+            
+          </div>
+          <a class="btn bg-primary rounded-full px-5 py-1 font-bold text-xl w-full lg:w-auto flex border-none">Book Consult <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-9 bg-black p-2 rounded-full font-semibold text-blanch -rotate-45">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+          </svg>              
+          </a>
+        
+      </footer>
 
    </footer>
 </body>
